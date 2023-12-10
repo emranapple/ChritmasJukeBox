@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #ffad99, #ffcce0);
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    color: #DEEAEE;
+    text-align: center;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+#player {
+  background-color: #DEEAEE;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    background-color: #0F0F0F;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 15px 0;
+    box-shadow: 1px 1px 5px whitesmoke;
+    margin: .5em 0;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: #0F0F0F;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.player-controller {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+p:hover {
+    box-shadow: 1px 1px 10px whitesmoke;
+}
+
+h1 {
+    color: black;
+
+}
+
